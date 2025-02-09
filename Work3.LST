@@ -1,0 +1,14 @@
+SQL> select * from tab;
+
+TNAME                          TABTYPE  CLUSTERID                               
+------------------------------ ------- ----------                               
+DEPT                           TABLE                                            
+EMP                            TABLE                                            
+BONUS                          TABLE                                            
+SALGRADE                       TABLE                                            
+
+SQL> spooloff
+SP2-0042: unknown command "spooloff" - rest of line ignored.
+SQL> spoolof
+SP2-0042: unknown command "spoolof" - rest of line ignored.
+SQL> spool off
